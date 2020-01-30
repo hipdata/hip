@@ -5,9 +5,9 @@ Hip is an easy way to share and explore datasets.
 Hip is file based. To access data, all you need to know is how to work with files. With a few simple commands or yaml config file edits you can:
 
 * Automatically sync your data to cloud: just generate your dataset, and it will be saved to cloud.
-* Easily share your dataset publicly or privately
+* Easily share your dataset publicly or privately.
 * Automatically maintain a backup of multiple versions of your data; never lose anything with an accidental rewrite.
-* Easly sample data by intructing hip to only maintain a fraction of data on your local disk
+* Easily sample data by instructing hip to only maintain a fraction of data on your local disk.
 * Apply various transformations to data that are swiftly executed in a cloud so you don't have to wait.
 
 ## Getting Started
@@ -15,6 +15,8 @@ Hip is file based. To access data, all you need to know is how to work with file
 ### Installation
 
 Install hip by running ```pip install hip```. Then run ```pip configure```. It will ask you a few questions, and you will be done. If you need to sync / share private datesets, you will need a hip key. You can obtain it at https://hipdata.io/register
+
+Anaconda installation is also supported. You can install hip by running ```conda install hip```.
 
 ### Syncing your dataset to cloud
 
